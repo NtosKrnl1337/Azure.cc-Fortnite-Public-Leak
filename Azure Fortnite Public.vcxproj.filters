@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{31a01ef0-21d9-4ce0-b3a8-a8cd6f6e0a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cache">
+      <UniqueIdentifier>{1aef9d4e-25c5-4b1a-9e88-5b2f5e8a7d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{f73f1e0a-6a2c-4f76-99e3-8b8de1f8a6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{8c1c5b62-4ad6-4b21-b8ef-7e2f1d3b8d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entry">
+      <UniqueIdentifier>{2e1c8b56-69e7-4a91-83a4-d51d5c2c0b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rendering">
+      <UniqueIdentifier>{3a7b34e6-9b8e-4fd5-b6c8-9a25f9c3e0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rendering\menu">
+      <UniqueIdentifier>{6c47c0a3-d9b5-44c1-87f5-3b1e9d2f6a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{0d8e5b1b-1d4c-4e69-bc31-1aa68c2b9f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{ec5b2d3a-8f1a-43e3-94c5-90dc5fd1c7b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cache\index.cpp">
+      <Filter>src\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_demo.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_fonts.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\auth\lib\QRCode\pingout.cpp" />
+    <ClCompile Include="thirdparty\auth\lib\QRCode\qr.png.cpp" />
+    <ClCompile Include="thirdparty\auth\lib\QRCode\qrcode.cpp" />
+    <ClCompile Include="thirdparty\auth\lib\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h" />
+    <ClInclude Include="src\cache\index.h">
+      <Filter>src\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\offsets.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\sdk.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\index.h">
+      <Filter>src\rendering\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\fonts.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_fonts.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_impl_dx11.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_rectpack.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_textedit.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_truetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\driver.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\driver_bytes.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\DigiMapperApi.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Mapper.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aim\aimbot.h" />
+    <ClInclude Include="src\memory\mapper.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\security\xor.h" />
+    <ClInclude Include="src\console\console.h" />
+    <ClInclude Include="build.h" />
+    <ClInclude Include="src\rendering\dopamina_menu.h" />
+    <ClInclude Include="src\rendering\menu_theme.h" />
+    <ClInclude Include="src\rendering\dopamina_font.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\curl.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\curlver.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\easy.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\header.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\mprintf.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\multi.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\options.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\stdcheaders.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\system.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\typecheck-gcc.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\urlapi.h" />
+    <ClInclude Include="thirdparty\auth\lib\curl\websockets.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\core.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_aead_aegis128l.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_aead_aegis256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_aead_aes256gcm.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_aead_chacha20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_aead_xchacha20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_auth.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_auth_hmacsha256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_auth_hmacsha512.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_auth_hmacsha512256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_box.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_box_curve25519xchacha20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_box_curve25519xsalsa20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_ed25519.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_hchacha20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_hsalsa20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_ristretto255.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_salsa20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_salsa208.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_core_salsa2012.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_generichash.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_generichash_blake2b.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_hash.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_hash_sha256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_hash_sha512.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_kdf.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_kdf_blake2b.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_kdf_hkdf_sha256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_kdf_hkdf_sha512.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_kx.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_onetimeauth.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_onetimeauth_poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_pwhash.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_pwhash_argon2i.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_pwhash_argon2id.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_pwhash_scryptsalsa208sha256.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_scalarmult.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_scalarmult_curve25519.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_scalarmult_ed25519.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_scalarmult_ristretto255.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_secretbox.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_secretbox_xchacha20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_secretbox_xsalsa20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_secretstream_xchacha20poly1305.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_shorthash.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_shorthash_siphash24.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_sign.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_sign_ed25519.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_sign_edwards25519sha512batch.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_chacha20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_salsa20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_salsa208.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_salsa2012.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_xchacha20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_stream_xsalsa20.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_verify_16.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_verify_32.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\crypto_verify_64.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\export.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\randombytes.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\randombytes_internal_random.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\randombytes_sysrandom.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\runtime.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\utils.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium\version.h" />
+    <ClInclude Include="thirdparty\auth\lib\libsodium\sodium.h" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\conversions\to_json.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\hash.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\json.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\nlohmann\ordered_map.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\QRCode\pngout.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\QRCode\qr.png.h" />
+    <ClInclude Include="thirdparty\auth\lib\QRCode\qrcode.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\auth.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\includes2.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\lazy_importer.hpp" />
+    <ClInclude Include="thirdparty\auth\lib\utils.hpp" />
+    <ClInclude Include="thirdparty\auth\auth.hpp" />
+    <ClInclude Include="thirdparty\auth\auth_guard.hpp" />
+    <ClInclude Include="thirdparty\auth\json.hpp" />
+    <ClInclude Include="thirdparty\auth\storage.hpp" />
+    <ClInclude Include="thirdparty\auth\utils.hpp" />
+    <ClInclude Include="src\security\security.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\console\log.h" />
+  </ItemGroup>
+</Project>
